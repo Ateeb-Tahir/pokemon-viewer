@@ -1,0 +1,50 @@
+🧾 Project Title:
+Pokémon Sprite Viewer (using HTML, CSS & JavaScript)
+📌 Description:
+The Pokémon Sprite Viewer is a mini web application that allows users to search for any Pokémon by name and instantly view its official front-facing sprite using data fetched from the public PokeAPI. The app features a clean UI, dynamic image rendering, and error handling for a seamless user experience.
+
+🔧 Key Features:
+Real-time Fetching: Uses the fetch() API to retrieve data asynchronously from PokeAPI.
+
+User Input Validation: Trims input and converts to lowercase to ensure API compatibility.
+
+Dynamic Rendering: Shows the Pokémon’s image and name exactly as typed by the user.
+
+Error Handling: Displays appropriate error messages for invalid names, missing images, or network failures.
+
+Responsive UI: Layout is centered and mobile-friendly using Flexbox.
+
+Clean Code Structure: Uses async/await, modular DOM access, and UI reset logic for better maintainability.
+
+🧠 What I Learned:
+How to integrate external APIs (PokeAPI) in frontend web apps.
+
+Using async/await with try...catch to handle asynchronous operations safely.
+
+DOM manipulation for real-time UI updates.
+
+Basic debugging using browser DevTools.
+
+Importance of input validation and UI state reset for a smooth user experience.
+
+📁 Tech Stack:
+Technology	Purpose
+HTML	Structure and layout
+CSS	Styling and alignment (Flexbox)
+JavaScript	Logic, API calls, DOM updates
+PokeAPI	Data source for Pokémon info
+
+✅ How to Use:
+Open the app in any browser.
+
+Enter a Pokémon name (e.g., pikachu, charizard).
+
+Click "Fetch Pokémon" to display its sprite.
+
+If the name is invalid or not found, an error message is shown.
+
+💡 Example Use Case:
+This project can serve as a beginner-level API integration demo.
+
+It’s ideal for learning async JavaScript and working with JSON-based REST APIs.
+
