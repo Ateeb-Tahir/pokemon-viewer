@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Sprite Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Pokémon Sprite Viewer</h1>
+
+  <input type="text" id="pokemonName" placeholder="Enter Pokémon name" />
+  <button onclick="fetchData()">Fetch Pokémon</button><br>
+
+  <div id="errorMessage" class="error"></div>
+  <div id="spriteContainer" style="display: none;">
+        <img id="pokemonSprite" src="" alt="Pokémon Sprite" />
+        <div id="pokemonNameDisplay"></div>
+</div>
+
+ <script src="script.js" defer></script>
+</body>
+</html> 

@@ -1,0 +1,41 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 50px;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+      font-size: 2rem;
+    }
+    
+/* Wrapper to center image + name */
+#spriteContainer {
+  display: none; /* hidden by default */
+  flex-direction: column;/* stack vertically */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Pokémon sprite image */
+#pokemonSprite {
+  height: 300px;
+  display: none; /* initially hidden */
+}
+
+
+#pokemonNameDisplay {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error {
+      color: red;
+      font-weight: bold;
+      margin-top: 10px;
+    }
